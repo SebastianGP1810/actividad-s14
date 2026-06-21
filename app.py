@@ -11,8 +11,8 @@ from pymongo.errors import PyMongoError, ServerSelectionTimeoutError
 
 # Configuración de la página
 st.set_page_config(
-    page_title="App Azure + ACR + MongoDB Atlas",
-    page_icon="🚀",
+    page_title="App Azure + ACR + MongoDB Atlas + Docker -> Sebastian Guevara",
+    page_icon="🐶",
     layout="wide"
 )
 
