@@ -11,8 +11,8 @@ from pymongo.errors import PyMongoError, ServerSelectionTimeoutError
 
 # Configuración de la página
 st.set_page_config(
-    page_title="App Azure + ACR + MongoDB Atlas",
-    page_icon="🚀",
+    page_title="App Azure + ACR + MongoDB Atlas + Docker -> Sebastian Guevara",
+    page_icon="🐶",
     layout="wide"
 )
 
@@ -69,7 +69,7 @@ def consultar_hora_mongodb():
 
 
 # Título principal
-st.title("🚀 App Streamlit en Azure Web App + Docker + ACR + MongoDB Atlas -> Sebastian Guevara")
+st.title("🤖 App Streamlit en Azure Web App + Docker + ACR + MongoDB Atlas -> Sebastian Guevara")
 st.markdown("---")
 
 st.info(
@@ -81,7 +81,7 @@ st.info(
 st.header("🟢 Validación de conexión a MongoDB Atlas")
 
 st.write(
-    "La app no crea colecciones ni inserta registros. Solo ejecuta el comando `hello` "
+    "Se ejecuta el comando `hello` "
     "para obtener la hora del servidor MongoDB."
 )
 
